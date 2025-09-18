@@ -27,7 +27,7 @@ function Navbar() {
             
             <a href="/homepage">
               <span className={`text-4xl font-bold transition-colors duration-300 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300`}>
-              Unik-Solutions
+              NextLine
             </span>
             </a>
             
@@ -36,6 +36,16 @@ function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
+
+  <a
+                  href="/services"
+                  className="text-lg px-5 py-2 rounded-full font-medium text-gray-900 transition-all duration-300 group relative"
+                >
+                  <span className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                    Services
+                  </span>
+                </a>
+
                 <a
                   href="/projects"
                   className="text-lg px-5 py-2 rounded-full font-medium text-gray-900 transition-all duration-300 group relative"

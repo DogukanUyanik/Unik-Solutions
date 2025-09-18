@@ -20,7 +20,7 @@ export default function ComputerFrameSection() {
       imageSrc: "/images/Screenshot from 2025-06-26 23-45-47.png",
       title: "Custom Web Application",
       altText: "Modern web application interface",
-      technologies: ["React", "Node.js", "TypeScript"],
+      technologies: ["Springboot", "Java", "Thymeleaf"],
       heading: "Moderne Webapplicaties",
       description:
         "Ervaar de kracht van onze op maat gemaakte webapplicaties die gebouwd zijn met de nieuwste technologieën. Van responsive design tot schaalbare architectuur, wij creëren digitale ervaringen die gebruikers inspireren en bedrijfsprocessen optimaliseren.",

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center gap-4">
         {/* Bedrijfsnaam */}
         <h4 className="text-xl font-semibold text-gray-800">
-          © {new Date().getFullYear()} BND Solutions
+          © {new Date().getFullYear()} Unik-Solutions
         </h4>
         <p className="text-gray-500">Alle rechten voorbehouden.</p>
 

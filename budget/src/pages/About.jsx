@@ -265,8 +265,8 @@ function OurStorySection() {
               </p>
               
               <p>
-                Daarom richtten we ons bedrijf op met één doel: <strong className="text-purple-700">de nieuwste technologieën</strong> 
-                zoals AI, machine learning en moderne webontwikkeling toegankelijk maken voor 
+                Daarom richtten we ons bedrijf op met één doel: <strong className="text-purple-700">de nieuwste technologieën </strong> 
+                zoals AI en moderne webontwikkeling toegankelijk maken voor 
                 bedrijven van elke grootte. Van startup tot enterprise - wij zorgen voor oplossingen 
                 die écht werken.
               </p>
@@ -451,9 +451,9 @@ const storyStats = [
 const techFocus = [
   {
     icon: <Lightbulb className="w-6 h-6" />,
-    title: "AI & Machine Learning",
+    title: "AI",
     description: "Geavanceerde AI-oplossingen die jouw bedrijf slimmer maken",
-    technologies: ["Python", "TensorFlow", "OpenAI", "Hugging Face"]
+    technologies: ["N8N", "VoiceFlow", "Javascript"]
   },
   {
     icon: <Code className="w-6 h-6" />,

@@ -10,6 +10,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import TermsPage from './components/TermsPage';
+import ServicesPage from './pages/ServicesOverview';
 
 
 
@@ -57,6 +58,11 @@ const router = createBrowserRouter([
        {
         path: '/terms',
         element: <TermsPage/>
+      },
+      {
+        path:'/services',
+        element: <ServicesPage/>
+
       }
     ],
   },

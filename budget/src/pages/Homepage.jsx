@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { ChevronRight, Code, Brain, Zap, Shield, Users, Award, ArrowUp, Star, Play, Menu, X } from "lucide-react";
 import ComputerFrameSection from "../components/ComputerFrameSection";
+import ServicesOverview from "../components/ServicesOverview";
 
 // Custom hook for intersection observer
 function useIntersectionObserver(options = {}) {
@@ -104,7 +105,7 @@ function ComputerFrameSection222() {
       imageSrc: "/images/Screenshot from 2025-06-26 23-45-47.png",
       title: "Custom Web Application",
       altText: "Modern web application interface",
-      technologies: ["React", "Node.js", "TypeScript"],
+      technologies: ["Springboot", "Java", "Thymeleaf"],
       heading: "Moderne Webapplicaties",
       description:
         "Ervaar de kracht van onze op maat gemaakte webapplicaties die zijn gebouwd met de nieuwste technologieën. Van responsive design tot schaalbare architectuur, wij creëren digitale ervaringen die gebruikers inspireren en bedrijfsprocessen optimaliseren.",
@@ -222,32 +223,32 @@ function Homepage() {
     }
   ];
 
-  const services = [
-    {
-      icon: <Code className="w-12 h-12" />,
-      title: "Professionele Webontwikkeling",
-      description: "Moderne websites en webapps met focus op snelheid, gebruiksvriendelijkheid en conversie. Wij bouwen in React, Node.js, en andere moderne frameworks.",
-      features: ["Responsive Design", "SEO Geoptimaliseerd", "Lightning Fast", "Mobile-First"]
-    },
-    {
-      icon: <Zap className="w-12 h-12" />,
-      title: "Schaalbare Softwareontwikkeling",
-      description: "Van idee tot oplevering: wij ontwikkelen robuuste desktop-oplossingen op maat, afgestemd op jouw processen.",
-      features: ["Custom Solutions", "Scalable Architecture", "Cross-platform", "Agile Development"]
-    },
-    {
-      icon: <Brain className="w-12 h-12" />,
-      title: "Voorspellende Analyse met AI",
-      description: "Zet data om in waardevolle inzichten. Ontvang voorspellingen en trends dankzij machine learning modellen en datavisualisatie.",
-      features: ["Real-time Analytics", "Predictive Models", "Data Visualization", "Business Intelligence"]
-    },
-    {
-      icon: <Shield className="w-12 h-12" />,
-      title: "Machine Learning Modellen",
-      description: "Wij bouwen slimme algoritmes die processen automatiseren, klantgedrag voorspellen en efficiëntie verhogen.",
-      features: ["Deep Learning", "NLP Processing", "Computer Vision", "AutoML"]
-    }
-  ];
+const services = [
+  {
+    icon: <Code className="w-12 h-12" />,
+    title: "Professionele Webontwikkeling",
+    description: "Moderne websites en webapps met focus op snelheid, gebruiksvriendelijkheid en conversie. Wij bouwen in React, Node.js, en andere moderne frameworks voor een optimale gebruikerservaring.",
+    features: ["Responsive Design", "SEO Geoptimaliseerd", "Lightning Fast", "Mobile-First"]
+  },
+  {
+    icon: <Zap className="w-12 h-12" />,
+    title: "Schaalbare Softwareontwikkeling",
+    description: "Van idee tot oplevering: wij ontwikkelen robuuste desktop- en weboplossingen op maat, afgestemd op jouw bedrijfsprocessen en volledig schaalbaar voor toekomstige groei.",
+    features: ["Custom Solutions", "Scalable Architecture", "Cross-platform", "Agile Development"]
+  },
+  {
+    icon: <Brain className="w-12 h-12" />,
+    title: "AI Agents met n8n",
+    description: "Automatiseer uw workflows met intelligente AI-agents gebouwd in n8n. Van lead generation tot customer support - wij creëren slimme automatiseringen die 24/7 voor u werken.",
+    features: ["Workflow Automation", "API Integraties", "Smart Triggers", "Real-time Processing"]
+  },
+  {
+    icon: <Shield className="w-12 h-12" />,
+    title: "Conversational AI met Voiceflow",
+    description: "Bouw geavanceerde chatbots en voice assistants met Voiceflow. Van customer service bots tot complexe conversational interfaces die naadloos integreren met uw systemen.",
+    features: ["Chatbot Development", "Voice Assistants", "Multi-platform Deploy", "Natural Language Processing"]
+  }
+];
 
   return (
     <div className="w-full">
@@ -323,6 +324,9 @@ function Homepage() {
 
           {/* Services Section */}
           <ServicesSection services={services} />
+
+          <ServicesOverview />
+
 
           {/* Why Choose Us Section */}
           <WhyChooseUsSection whyChooseUs={whyChooseUs} />
