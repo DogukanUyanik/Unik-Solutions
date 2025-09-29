@@ -70,7 +70,147 @@ function ServicesOverview() {
       features: ["Volledig maatwerk", "API integraties", "Business systemen", "AI automatisering"],
       popular: false,
       gradient: "from-indigo-500 to-blue-600"
-    }
+    },
+      {
+    name: "Customer Support FAQ Bot",
+    price: "Setup €500 / €100 p.m.",
+    description: "AI chatbot that answers common questions 24/7 via chat or messaging apps.",
+    icon: <Star className="w-8 h-8" />,
+    features: [
+      "Beantwoordt veelgestelde vragen automatisch",
+      "24/7 beschikbaar",
+      "Verbetert klanttevredenheid",
+      "Bespaart tijd voor medewerkers"
+    ],
+    popular: true,
+    gradient: "from-blue-500 to-purple-600"
+  },
+  {
+    name: "Appointment Booking & Reminders",
+    price: "Setup €750 / €150 p.m.",
+    description: "Automatiseer afspraken en verstuur herinneringen via SMS of e-mail.",
+    icon: <Zap className="w-8 h-8" />,
+    features: [
+      "Online afspraken plannen",
+      "Automatische SMS/email herinneringen",
+      "Voorkomt dubbele boekingen",
+      "Minder no-shows"
+    ],
+    popular: false,
+    gradient: "from-green-500 to-teal-600"
+  },
+  {
+    name: "Lead Capture & Qualification",
+    price: "Setup €1.000 / €200 p.m.",
+    description: "AI chatbot die leads verzamelt en doorstuurt naar uw sales team.",
+    icon: <Rocket className="w-8 h-8" />,
+    features: [
+      "Stelt kwalificatievragen",
+      "Integreert met CRM",
+      "Bespaart sales tijd",
+      "Verhoogt conversieratio"
+    ],
+    popular: true,
+    gradient: "from-orange-500 to-pink-600"
+  },
+  {
+    name: "Customer Feedback Collection",
+    price: "Setup €600 / €120 p.m.",
+    description: "Automatische enquêtes en sentimentanalyse na aankoop of service.",
+    icon: <Code className="w-8 h-8" />,
+    features: [
+      "Automatische e-mails/SMS na aankoop",
+      "AI analyseert feedback",
+      "Inzicht in klanttevredenheid",
+      "Verbeterpunten zichtbaar"
+    ],
+    popular: false,
+    gradient: "from-indigo-500 to-blue-600"
+  },
+  {
+    name: "Order Tracking Notifications",
+    price: "Setup €800 / €150 p.m.",
+    description: "Automatische updates over bestelling via SMS of chat.",
+    icon: <Zap className="w-8 h-8" />,
+    features: [
+      "Real-time orderstatus",
+      "Minder klantvragen",
+      "Verhoogt transparantie",
+      "Koppeling met webshop-API"
+    ],
+    popular: false,
+    gradient: "from-purple-500 to-pink-600"
+  },
+  {
+    name: "Inventory Alerts",
+    price: "Setup €1.200 / €200 p.m.",
+    description: "Houd voorraadniveaus in de gaten en ontvang automatische meldingen.",
+    icon: <Rocket className="w-8 h-8" />,
+    features: [
+      "Monitoring van voorraad",
+      "Slack/email waarschuwingen",
+      "Voorkomt stockouts",
+      "Efficiënter inkopen"
+    ],
+    popular: false,
+    gradient: "from-yellow-500 to-red-600"
+  },
+  {
+    name: "Invoice Automation",
+    price: "Setup €1.500 / €250 p.m.",
+    description: "Automatisch facturen genereren en betaalherinneringen versturen.",
+    icon: <Code className="w-8 h-8" />,
+    features: [
+      "Automatische factuur na dienst",
+      "E-mail betaalherinneringen",
+      "Snellere cashflow",
+      "Minder administratie"
+    ],
+    popular: false,
+    gradient: "from-blue-700 to-cyan-600"
+  },
+  {
+    name: "Social Media Automation",
+    price: "Setup €900 / €180 p.m.",
+    description: "Plan en post automatisch content op social media met AI-captions.",
+    icon: <Star className="w-8 h-8" />,
+    features: [
+      "Contentkalender integratie",
+      "Automatische postplanning",
+      "AI gegenereerde captions",
+      "Consistente online aanwezigheid"
+    ],
+    popular: true,
+    gradient: "from-pink-500 to-purple-600"
+  },
+  {
+    name: "New Customer Onboarding",
+    price: "Setup €700 / €130 p.m.",
+    description: "Automatische welkomstmails en gepersonaliseerde onboarding.",
+    icon: <Zap className="w-8 h-8" />,
+    features: [
+      "Welkomstmail met stappenplan",
+      "Persoonlijke informatie",
+      "Geautomatiseerd proces",
+      "Verhoogt klanttevredenheid"
+    ],
+    popular: false,
+    gradient: "from-green-500 to-emerald-600"
+  },
+  {
+    name: "Internal Team Notifications",
+    price: "Setup €600 / €120 p.m.",
+    description: "Directe notificaties bij nieuwe bestellingen of urgente verzoeken.",
+    icon: <Rocket className="w-8 h-8" />,
+    features: [
+      "Notificaties in Slack of SMS",
+      "Directe communicatie",
+      "Betere responstijd",
+      "Minder gemiste events"
+    ],
+    popular: false,
+    gradient: "from-gray-500 to-gray-700"
+  }
   ];
 
   return (
