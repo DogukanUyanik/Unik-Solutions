@@ -27,7 +27,7 @@ function Navbar() {
             
             <a href="/homepage">
               <span className={`text-4xl font-bold transition-colors duration-300 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300`}>
-              Arc Digital
+              Nextline Digital
             </span>
             </a>
             
